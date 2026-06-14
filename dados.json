@@ -1,0 +1,182 @@
+[
+  {
+    "id": "uai-01",
+    "nome": "O Fim do Placeholder no Design",
+    "categoria": "Design Sistêmico",
+    "emoji": "🚫",
+    "dor_resolvida": "Interfaces genéricas que falham em testes de usabilidade reais.",
+    "descricao": "Por que estruturar componentes com dados reais evita revisões tardias e refina a percepção do usuário.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-02",
+    "nome": "Métricas de UX Além do Engajamento",
+    "categoria": "Estratégia",
+    "emoji": "📊",
+    "dor_resolvida": "Decisões de negócio baseadas em métricas superficiais de vaidade.",
+    "descricao": "Aprenda a medir eficiência, redução de carga cognitiva e sucesso da tarefa em produtos complexos.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-03",
+    "nome": "WCAG 2.2: Resumo Prático para Devs",
+    "categoria": "Acessibilidade",
+    "emoji": "⚖️",
+    "dor_resolvida": "Documentação extensa e confusa sobre diretrizes de acessibilidade.",
+    "descricao": "Guia tático dos novos critérios de sucesso focados em acessibilidade cognitiva e motora.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-04",
+    "nome": "Engenharia de Prompts para Designers",
+    "categoria": "Inteligência Artificial",
+    "emoji": "🧠",
+    "dor_resolvida": "Resultados genéricos ou enviesados gerados por LLMs.",
+    "descricao": "Como estruturar comandos para extrair insights estratégicos e otimizar processos de pesquisa.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-05",
+    "nome": "Zettelkasten na Prática Multipotencial",
+    "categoria": "Gestão de Conhecimento",
+    "emoji": "🗄️",
+    "dor_resolvida": "Perda de referências cruciais e ideias isoladas sem conexão sistêmica.",
+    "descricao": "Implementando o método de Luhmann para cruzar referências entre design, cultura e tecnologia.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-06",
+    "nome": "Interfaces Conversacionais Éticas",
+    "categoria": "UX Writing",
+    "emoji": "💬",
+    "dor_resolvida": "Chatbots frustrantes que enganam ou alienam os usuários.",
+    "descricao": "Diretrizes para desenhar fluxos de diálogo que respeitam o tempo e o estado emocional das pessoas.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-07",
+    "nome": "Fadiga Cognitiva em Dashboards",
+    "categoria": "Design de Interfaces",
+    "emoji": "📉",
+    "dor_resolvida": "Excesso de dados na tela causando paralisia analítica em gestores.",
+    "descricao": "Como aplicar a lei de Miller e técnicas de revelação progressiva em painéis de controle.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-08",
+    "nome": "Vieses Algorítmicos no Design",
+    "categoria": "Inteligência Artificial",
+    "emoji": "⚠️",
+    "dor_resolvida": "Sistemas que perpetuam exclusão através de dados de treinamento corrompidos.",
+    "descricao": "Estratégias de auditoria no design de serviços que dependem de machine learning.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-09",
+    "nome": "Acessibilidade como Requisito Não-Funcional",
+    "categoria": "Arquitetura",
+    "emoji": "🏗️",
+    "dor_resolvida": "Acessibilidade tratada como um plugin ou etapa de finalização.",
+    "descricao": "Integrando a remoção de barreiras ocultas diretamente no backlog e nas definições de pronto (DoD).",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-10",
+    "nome": "Solarpunk Urbano no UI Design",
+    "categoria": "Estética e Cultura",
+    "emoji": "🌆",
+    "dor_resolvida": "Interfaces estéreis que não refletem responsabilidade socioambiental.",
+    "descricao": "Uma visão contrarian para design systems baseada em sustentabilidade e inclusão tecnológica.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-11",
+    "nome": "Como Documentar Decisões de Design (ADRs)",
+    "categoria": "Liderança",
+    "emoji": "📝",
+    "dor_resolvida": "Perda de contexto histórico sobre por que um fluxo foi desenhado de determinada forma.",
+    "descricao": "Adaptando os Architecture Decision Records da engenharia para o universo do design de produto.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-12",
+    "nome": "Agentes Autônomos na Curadoria",
+    "categoria": "Inteligência Artificial",
+    "emoji": "🤖",
+    "dor_resolvida": "Sobrecarga de informação e tempo gasto buscando referências técnicas.",
+    "descricao": "Avaliando o impacto dos agentes LLM na coleta e sumarização de dados no trabalho intelectual.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-13",
+    "nome": "O Fim das Interfaces Gráficas?",
+    "categoria": "Futuro do Trabalho",
+    "emoji": "🔮",
+    "dor_resolvida": "Dependência de telas para interações simples em ambientes complexos.",
+    "descricao": "A ascensão do design invisível e as implicações das interfaces baseadas puramente em voz e contexto.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-14",
+    "nome": "Liderança Inclusiva em Times de Produto",
+    "categoria": "Carreira",
+    "emoji": "🤝",
+    "dor_resolvida": "Culturas corporativas tóxicas que marginalizam profissionais diversos.",
+    "descricao": "Práticas gerenciais para construir segurança psicológica e impulsionar a inovação sistêmica.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-15",
+    "nome": "Design Tokens e Autonomia",
+    "categoria": "Design Sistêmico",
+    "emoji": "🧩",
+    "dor_resolvida": "Inconsistência visual e código css duplicado em larga escala.",
+    "descricao": "O poder dos tokens para unificar linguagem entre design e engenharia com controle centralizado.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-16",
+    "nome": "IA Generativa e Propriedade Intelectual",
+    "categoria": "Impacto Social",
+    "emoji": "⚖️",
+    "dor_resolvida": "Insegurança jurídica no uso de imagens e textos gerados em projetos comerciais.",
+    "descricao": "Análise crítica dos termos de serviço das principais ferramentas do mercado.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-17",
+    "nome": "Microinterações com Propósito",
+    "categoria": "Design de Interfaces",
+    "emoji": "✨",
+    "dor_resolvida": "Animações gratuitas que geram enjoo e quebram a eficiência da tarefa.",
+    "descricao": "Como usar movimento no UI exclusivamente para dar feedback claro ao usuário.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-18",
+    "nome": "Mensagens de Erro Humanizadas",
+    "categoria": "UX Writing",
+    "emoji": "🆘",
+    "dor_resolvida": "Usuários travados em formulários por culpa de mensagens técnicas ilegíveis.",
+    "descricao": "Técnicas de redação para guiar a recuperação de erros sem culpar a pessoa utilizadora.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-19",
+    "nome": "Pesquisa Mista: Quali + Quanti",
+    "categoria": "Pesquisa em UX",
+    "emoji": "🔬",
+    "dor_resolvida": "Decisões baseadas puramente em intuição ou apenas em dados frios de analytics.",
+    "descricao": "Como triangular entrevistas em profundidade com dados comportamentais para obter o quadro completo.",
+    "url": "https://uaixp.substack.com/"
+  },
+  {
+    "id": "uai-20",
+    "nome": "Desconstruindo o Design Defensivo",
+    "categoria": "Ética",
+    "emoji": "🛡️",
+    "dor_resolvida": "Dark patterns que enganam o usuário para maximizar métricas de curto prazo.",
+    "descricao": "A necessidade de abandonar práticas predatórias em favor de relações de longo prazo transparentes.",
+    "url": "https://uaixp.substack.com/"
+  }
+]

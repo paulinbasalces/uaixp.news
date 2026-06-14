@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /*?q=*
+Disallow: /cdn-cgi/
+
+Sitemap: https://uaixp.news/sitemap.xml

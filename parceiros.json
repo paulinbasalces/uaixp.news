@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cross-01",
+    "nome": "Estúdio Basalces",
+    "emoji": "📐",
+    "url": "https://basalces.com/"
+  },
+  {
+    "id": "cross-02",
+    "nome": "Trabalho e Futuro",
+    "emoji": "🚀",
+    "url": "https://trabalhoefuturo.com/"
+  },
+  {
+    "id": "cross-03",
+    "nome": "Café com Bytes",
+    "emoji": "💻",
+    "url": "https://uaixp.news/"
+  },
+  {
+    "id": "cross-04",
+    "nome": "0800 Eu Vou",
+    "emoji": "🎫",
+    "url": "https://0800euvou.com/"
+  }
+]

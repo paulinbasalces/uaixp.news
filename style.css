@@ -1,0 +1,275 @@
+:root {
+    /* Tema Escuro (Padrão Futurista) */
+    --bg-color: #120A1F; /* Roxo profundo */
+    --surface-color: rgba(42, 0, 79, 0.4);
+    --surface-border: rgba(255, 255, 255, 0.1);
+    --text-primary: #F4F4F9; /* Off-white */
+    --text-secondary: #B0A8B9;
+    --accent-color: #39FF14; /* Verde Neon */
+    --accent-hover: #00FF41;
+    --focus-ring: #FFBF00; /* Âmbar para contraste de acessibilidade */
+    
+    --font-base: 16px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+}
+
+[data-theme="light"] {
+    --bg-color: #F4F4F9;
+    --surface-color: rgba(255, 255, 255, 0.7);
+    --surface-border: rgba(0, 0, 0, 0.1);
+    --text-primary: #120A1F;
+    --text-secondary: #4A4453;
+    --accent-color: #2A004F;
+    --accent-hover: #400075;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-size: var(--font-base);
+    line-height: 1.6;
+    transition: background-color 0.3s ease;
+}
+
+/* Acessibilidade de Foco */
+*:focus-visible {
+    outline: 3px solid var(--focus-ring);
+    outline-offset: 2px;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--focus-ring);
+    color: #000;
+    padding: var(--spacing-sm) var(--spacing-md);
+    z-index: 1000;
+    transition: top 0.2s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Navegação */
+nav {
+    border-bottom: 1px solid var(--surface-border);
+    background: var(--bg-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-md) var(--spacing-lg);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.brand {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--accent-color);
+    letter-spacing: -0.5px;
+}
+
+.controls button {
+    background: var(--surface-color);
+    border: 1px solid var(--surface-border);
+    color: var(--text-primary);
+    padding: var(--spacing-sm) var(--spacing-md);
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    padding: 80px var(--spacing-lg);
+    text-align: center;
+    background: linear-gradient(180deg, var(--surface-color) 0%, var(--bg-color) 100%);
+    border-bottom: 1px solid var(--surface-border);
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: var(--spacing-md);
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+}
+
+/* Layout Principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--spacing-lg);
+}
+
+.editorial-notice {
+    background: var(--surface-color);
+    border-left: 4px solid var(--accent-color);
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    border-radius: 4px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+/* Cartões (Glassmorphism) */
+.card {
+    background: var(--surface-color);
+    border: 1px solid var(--surface-border);
+    border-radius: 12px;
+    padding: var(--spacing-lg);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.emoji {
+    font-size: 2rem;
+}
+
+.card-category {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    color: var(--text-primary);
+}
+
+.card-pain {
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: var(--text-primary);
+}
+
+.card-desc {
+    color: var(--text-secondary);
+    flex-grow: 1;
+}
+
+.btn-action, .btn-share {
+    background: transparent;
+    border: 2px solid var(--accent-color);
+    color: var(--text-primary);
+    padding: var(--spacing-md);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.btn-action:hover {
+    background: var(--accent-color);
+    color: var(--bg-color);
+}
+
+.btn-share {
+    border-color: var(--surface-border);
+    margin-top: var(--spacing-sm);
+}
+
+.btn-share:hover {
+    border-color: var(--text-primary);
+}
+
+/* Anúncios - Prevenção de CLS */
+.area-adsense {
+    grid-column: 1 / -1;
+    min-height: 250px;
+    background: var(--surface-color);
+    border: 1px dashed var(--surface-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    border-radius: 8px;
+}
+
+/* Rodapé e Parceiros */
+.footer {
+    border-top: 1px solid var(--surface-border);
+    padding: var(--spacing-lg) 0;
+    margin-top: var(--spacing-lg);
+}
+
+.partners-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-md);
+    margin: var(--spacing-lg) 0;
+}
+
+.partner-card {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md);
+    background: var(--surface-color);
+    border: 1px solid var(--surface-border);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+.partner-card:hover {
+    border-color: var(--accent-color);
+}
+
+.footer-links {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.footer-links a {
+    color: var(--text-secondary);
+}
+
+.copyright {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
